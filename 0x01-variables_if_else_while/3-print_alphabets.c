@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -Entry point
- * Description: 'print alphabets in lowercase and uppercase
+ * main - Entry point
+ * Description: 'print alphabets lowercase and uppercase
  * Return: always 0
  */
 int main(void)
