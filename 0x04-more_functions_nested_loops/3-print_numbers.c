@@ -2,18 +2,18 @@
 
 /**
  * *print_numbers - print 0123456789
- * * owned by Bwave ICT
+ * * owned by Monique
  * *Return: void
  */
 
 void print_numbers(void)
 {
-	char c;
+	char a = 0;
 
-	for (c = '0'; c <= '9'; c++)
+	while (a <= 9)
 	{
-	_putchar(c);
+		_putchar(a + '0');
+		a++;
 	}
 	_putchar('\n');
 }
-
